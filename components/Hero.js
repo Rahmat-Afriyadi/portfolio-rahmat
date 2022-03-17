@@ -26,7 +26,7 @@ export default function Hero() {
         className="relative bg-fixed bg-center bg-cover bg-[url('/images/hero4.png')] md:h-screen overflow-y-hidden"
       >
         <div className="container h-full mx-auto px-20 2xl:px-0 overflow-y-hidden">
-          <Navbar heroHeight={hero_height}/>
+          <Navbar heroHeight={hero_height} />
           <div className="text-center pt-20">
             <motion.h1
               className="text-2xl md:text-3xl mt-20 text-white font-semibold font-mono 2xl:w-6/12 xl:w-8/12 lg:w-10/12 mx-auto leading-relaxed transition-all duration-300 ease-in"
@@ -70,7 +70,7 @@ export default function Hero() {
         <motion.div
           initial={{ y: "300px" }}
           animate={{ y: 0 }}
-          transition={{ duration: 1, type: "tween", stiffness: 100 }}
+          transition={{ delay: .7, duration: 2, type:"tween" }}
           className="md:block absolute w-full h-screen bg-[url('/images/hero2.png')] top-0 bg-center bg-cover"
           style={{ transform: `translateY(-${scrollY * 0.06}px)` }}
         ></motion.div>
