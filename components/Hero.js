@@ -23,7 +23,7 @@ export default function Hero() {
       {/* https://media.giphy.com/media/4H5jdBI1AEvS2xlra6/giphy-downsized.gif */}
       <div
         ref={hero_ref}
-        className="relative bg-fixed bg-center bg-cover bg-[url('/images/hero4.png')] md:h-screen overflow-y-hidden"
+        className="relative bg-fixed bg-center bg-cover bg-[url('/images/hero4-min.png')] md:h-screen overflow-y-hidden"
       >
         <div className="container h-full mx-auto px-20 2xl:px-0 overflow-y-hidden">
           <Navbar heroHeight={hero_height} />
@@ -70,7 +70,7 @@ export default function Hero() {
         <motion.div
           initial={{ y: "300px" }}
           animate={{ y: 0 }}
-          transition={{ delay: .7, duration: 2, type:"tween" }}
+          transition={{ delay: 0.7, duration: 2, type: "tween" }}
           className="md:block absolute w-full h-screen bg-[url('/images/hero2.png')] top-0 bg-center bg-cover"
           style={{ transform: `translateY(-${scrollY * 0.06}px)` }}
         ></motion.div>
