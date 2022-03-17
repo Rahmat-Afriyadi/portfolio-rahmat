@@ -1,0 +1,26 @@
+[
+  {
+    "title" : "Olshop waarungg",
+    "image" : "olshop1.png",
+    "stack" : ["laravel.svg", "vuejs.svg", "tailwind.svg"],
+    "description":"Ini adalah website Online shop yang hanya memiliki 1 seller dan memiliki banyak buyer, website ini terintegrasi dengan Payment Gateaway(Tripay), Ongkos Kirim (RajaOngkir), dan database kodepos di seluruh indonesia "
+  },
+  {
+    "title" : "Aplikasi Kantin",
+    "image" : "aplikasikantin.png",
+    "stack" : ["php.svg","delphi.svg","firedac.svg"],
+    "description":"Aplikasi kantin ini di buat untuk keperluan kasir yang dapat mencat pesanan dan menyimpannya ke database. Aplikasi ini juga terintegrasi dengan payment Gateway sehingga pelanggan tidak perlu datang ke kantin untuk membayar. Aplikasi ini juga terintegrasi dengan API Ongkos Kirim sehingga pemilik kantin bisa menentukan besar harga ongkos kirim kepelanggan"
+  },
+  {
+    "title" : "Web Scraping",
+    "image" : "kodepos1.png",
+    "stack" : ["anaconda.svg","pandas.svg","beautifulshop.svg"],
+    "description":"Projects pembuatan database kodepos di seluruh indonesia. untuk keperluan datanya saya melakukan aktivitas web scraping kepada website carikodepos.com. perlu di ketahui bahwa Situs carikodepos.com membebaskan pengunjung untuk melakukan web scraping"
+  },
+  {
+    "title" : "Olshop waarungg DJango",
+    "image" : "olshopdjango1-01.png",
+    "stack" : ["jquery.svg","bootstrap.svg","django.svg"],
+    "description":"Ini adalah website Online shop yang hanya memiliki 1 seller dan memiliki banyak buyer, Website ini versi pertama dari projects ku yang Olshop waarungg. Website ini juga belum terintegrasi dengan Payment Gateaway dan Ongkos kirim. Namun bedanya website ini di develop menggunakan DJango dan Bootstrap"
+  }
+]

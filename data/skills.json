@@ -1,0 +1,127 @@
+[
+  {
+    "name": "HTML",
+    "level": "4 Years",
+    "image": "html.svg"
+  },
+  {
+    "name": "CSS",
+    "level": "4 Years",
+    "image": "css.svg"
+  },
+  {
+    "name": "Javascript",
+    "level": "2 Years",
+    "image": "javascript.svg"
+  },
+  {
+    "name": "PHP",
+    "level": "1 Years",
+    "image": "php.svg"
+  },
+  {
+    "name": "JSON",
+    "level": "1 Years",
+    "image": "json.svg"
+  },
+  {
+    "name": "Python",
+    "level": "2 Years",
+    "image": "python.svg"
+  },
+  {
+    "name": "Pandas",
+    "level": "6 Months",
+    "image": "pandas.svg"
+  },
+  {
+    "name": "Anaconda",
+    "level": "1 Years",
+    "image": "anaconda.svg"
+  },
+  {
+    "name": "NodeJS",
+    "level": "6 Months",
+    "image": "nodejs.svg"
+  },
+  {
+    "name": "DJango",
+    "level": "6 Months",
+    "image": "django.svg"
+  },
+  {
+    "name": "Adobe Photoshop",
+    "level": "4 Years",
+    "image": "adobephotoshop.svg"
+  },
+  {
+    "name": "Adobe Illustrator",
+    "level": "2 Years",
+    "image": "adobeillustrator.svg"
+  },
+  {
+    "name": "Blender 3D",
+    "level": "2 Year",
+    "image": "blender3d.svg"
+  },
+  {
+    "name": "R Programming",
+    "level": "6 Months",
+    "image": "R.svg"
+  },
+  {
+    "name": "Bootstrap",
+    "level": "2 Years",
+    "image": "bootstrap.svg"
+  },
+  {
+    "name": "Delphi",
+    "level": "1 Months",
+    "image": "delphi.svg"
+  },
+  {
+    "name": "REST API",
+    "level": "1 Years",
+    "image": "restapi.svg"
+  },
+  {
+    "name": "React JS",
+    "level": "1 Months",
+    "image": "react.svg"
+  },
+  {
+    "name": "Tailwind CSS",
+    "level": "1 Months",
+    "image": "tailwind.svg"
+  },
+  {
+    "name": "Laravel",
+    "level": "1 Years",
+    "image": "laravel.svg"
+  },
+  {
+    "name": "Lumen",
+    "level": "6 Months",
+    "image": "lumen.svg"
+  },
+  {
+    "name": "Nest JS",
+    "level": "1 Months",
+    "image": "nestjs.svg"
+  },
+  {
+    "name": "MySQL",
+    "level": "1 Years",
+    "image": "mysql.svg"
+  },
+  {
+    "name": "Vue JS",
+    "level": "1 Months",
+    "image": "vuejs.svg"
+  },
+  {
+    "name": "Mongoo DB",
+    "level": "1 Months",
+    "image": "mongoodb.svg"
+  }
+]

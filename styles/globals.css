@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+.cards-left {
+  transform: translateX(30vw);
+}
+.cards-right {
+  transform: translateX(-30vw);  
+}
+
+.cards {
+  opacity: 0;
+  transition: 850ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.cards.show {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.vertical-scroll::-webkit-scrollbar {
+  width: .9em;
+  height: 1em;
+}
+
+.vertical-scroll::-webkit-scrollbar-track {
+  background: hsl(120 75% 50% / .6);
+  border-radius: 100vw;
+  margin-block: 0.5em;
+}
+
+.vertical-scroll::-webkit-scrollbar-thumb {
+  background: hsl(120 100% 20% / 1);
+  border: 0.2em solid hsl(120 75% 50% / .3);
+  border-radius: 100vw;
+}
+
+.item_direction {
+    direction:ltr;
+  }
