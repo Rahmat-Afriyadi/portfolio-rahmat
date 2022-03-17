@@ -38,7 +38,7 @@ export default function ProjectItem({
         )}
         src={image_url}
       />
-      <div className="vertical-scroll text-white px-11 h-96 md:overflow-y-auto md:w-6/12 w-full">
+      <div className="vertical-scroll text-white sm:px-11 h-96 md:overflow-y-auto md:w-6/12 w-full">
         <h2
           key={index}
           className=" font-semibold mt-7 lg:-mt-1 text-2xl sm:text-5xl md:text-4xl lg:text-5xl mb-1"

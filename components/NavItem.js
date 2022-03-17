@@ -34,7 +34,7 @@ export default function NavItem({ href, scheme, children }) {
           to={href}
           onClick={navClick}
           className={classnames(
-            "text-lg transition font-semibold",
+            "text-lg transition font-semibold cursor-pointer",
             pickedScheme
           )}
           smooth={true}

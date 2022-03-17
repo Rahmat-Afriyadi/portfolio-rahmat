@@ -13,7 +13,7 @@ export default function SectionProjects({ projectsData }) {
   const test = useRef(null);
   return (
     <>
-      <section ref={test} className="pt-28" id="projects">
+      <section ref={test} className="" id="projects">
         <div className="w-full mx-auto px-10 2xl:px-0 bg-[#2d253a] pt-20">
           <SectionTitle>Projects</SectionTitle>
           <SectionParagraph>Beberapa proyek buatan saya.</SectionParagraph>
