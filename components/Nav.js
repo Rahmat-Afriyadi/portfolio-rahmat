@@ -13,7 +13,7 @@ export default function Nav({ scheme, dir }) {
       show: {
         opacity: 100,
         transition: {
-          staggerChildren: 0.09,
+          staggerChildren: 0.13,
         },
       },
     };
@@ -21,7 +21,7 @@ export default function Nav({ scheme, dir }) {
     const item = {
       hidden: { y: "-100vh" },
       show: { y: 0 , transition: {
-        duration: .8,
+        duration: 2,
         type: "spring",
         stifness: 300
       }},

@@ -65,8 +65,8 @@ export default function Navbar({ heroHeight }) {
       y: 0,
     },
     transition: {
-      delay: 0.4,
-      duration: 2,
+      delay: 1,
+      duration: 3,
       type: "tween",
       ease: "anticipate",
     },
@@ -88,7 +88,7 @@ export default function Navbar({ heroHeight }) {
           initial={{ y: 470 }}
           animate={{ y: 0 }}
           transition={{
-            delay: 0.4,
+            delay: 1,
             duration: 2,
             type: "tween",
             ease: "anticipate",
