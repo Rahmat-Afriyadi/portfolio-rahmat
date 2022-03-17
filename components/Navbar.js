@@ -6,6 +6,7 @@ import classnames from "classnames";
 import { motion } from "framer-motion";
 import Image from "next/dist/client/image";
 
+
 export default function Navbar({ heroHeight }) {
   const [offcanvas, setOffcanvas] = useState(false);
   const [black, setBlack] = useState(false);
@@ -103,13 +104,13 @@ export default function Navbar({ heroHeight }) {
           </Button>
         </div>
         {/* <div className="w-9/12 md:hidden text-right"> */}
-          <motion.img
-            // alt="menu button"
-            src="/images/stack/menu.svg"
-            // layout="fill"
-            className="w-1/12 md:hidden text-right"
-            onClick={() => setOffcanvas(true)}
-          />
+        <motion.img
+          // alt="menu button"
+          src="/images/stack/menu.svg"
+          // layout="fill"
+          className="w-1/12 md:hidden text-right"
+          onClick={() => setOffcanvas(true)}
+        />
         {/* </div> */}
       </div>
 

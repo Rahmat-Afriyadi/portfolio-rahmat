@@ -3,6 +3,7 @@ import Button from "./Button";
 import { useRef, useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
+import { Link } from "react-scroll";
 
 export default function Hero() {
   const hero_ref = useRef(null);
@@ -56,14 +57,22 @@ export default function Hero() {
             >
               Aku anak baik yang suka menolong orang tua menyebrangi jalanan.
             </p>
-            <div
-              className="mb-5 -mt-5 sm:-mt-0 transition-all duration-300 ease-in"
+            <Link
               style={{ transform: `translateY(${scrollY * 0.5}px)` }}
+              to="profile"
+              smooth={true}
+              className="absolute z-10 transition-all py-3 px-10 font-semibold text-sm inline-block bg-green-400 cursor-pointer mt-14 rounded-full hover:bg-yellow-600 text-white shadow-sm shadow-black"
             >
-              <Button href="#profile" pill variant="yellow" className="mt-14">
-                Pelajari
-              </Button>
-            </div>
+              Pelajari
+            </Link>
+            <Link
+              style={{ transform: `translateY(${scrollY * 0.5}px)` }}
+              // to="profile"
+              // smooth
+              className="transition-all py-3 px-10 font-semibold text-sm inline-block bg-green-400 cursor-pointer mt-14 rounded-full hover:bg-yellow-600 text-black"
+            >
+              Pelajari
+            </Link>
           </div>
         </div>
         {/* <image src="/images/hero1.png" className="absolute w-full"/> */}

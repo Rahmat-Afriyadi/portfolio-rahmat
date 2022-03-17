@@ -10,7 +10,7 @@ export default function Profile() {
         <SectionTitle>Profile</SectionTitle>
         <SectionParagraph>Mengenal saya secara singkat.</SectionParagraph>
 
-        <div className="flex lg:items-center md:items-start text-white flex-wrap xl:w-9/12 mx-auto md:mt-10">
+        <div className="flex lg:items-center md:items-start text-white flex-wrap xl:w-9/12 mx-auto -mt-10 md:mt-10">
           <motion.div
             //   initial={{ backgroundColor: "hsl(0, 100, 50)" }}
             animate={{
@@ -27,7 +27,7 @@ export default function Profile() {
           >
             <motion.img alt="profile" src="/images/profile.jpg" layout="fill" className="rounded-lg" />
           </motion.div>
-          <div className="vertical-scroll -mt-20 sm:-mt-48 md:-mt-0 md:w-7/12 w-full pt-5 lg:pt-0 pb-10 px-10 overflow-y-auto md:h-[475px] lg:h-screen">
+          <div className="vertical-scroll -mt-32 sm:-mt-40 md:-mt-0 md:w-7/12 w-full pt-5 lg:pt-0 pb-10 px-10 overflow-y-auto md:h-[475px] lg:h-screen">
             <p className="text-md md:text-lg leading-relaxed">
               Perkenalkan saya Rahmat Afriyadi cita cita ku ingin menjadi
               antronot, tapi sebelum itu aku terlebih dahulu ingin menyelamatkan

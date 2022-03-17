@@ -1,10 +1,40 @@
 import classnames from "classnames";
 import { useEffect } from "react";
 import Image from "next/dist/client/image";
+import { InView } from "react-intersection-observer";
 
 import Data from "../data/projects.json";
 import Stack from "./Stack";
 import { motion } from "framer-motion";
+
+const fadeInUp = {
+  initial: {
+    // y: 200,
+    // rotate: 0,
+    scale: 0,
+    opacity: 0.0
+  },
+  animate: {
+    // y: 0,
+    // x:0,
+    // rotate: 360,
+    scale: 1,
+    opacity: 1
+  },
+  transition: {
+    duration: 4,
+    type: "tween",
+    // stiffness: 50,
+  },
+};
+
+const kalauTampil = (inView, entry) => {
+  if (inView) {
+    entry.target.setAttribute("")
+  }
+  console.log("Inview:", inView);
+} 
+
 export default function ProjectItem({
   name,
   description,
@@ -30,14 +60,36 @@ export default function ProjectItem({
       >
         <Image key={index} alt={name} src={image_url} layout="fill" />
       </div> */}
-      <motion.img
+      {/* <motion.img
+        initial="initial"
+        animate="animate"
+        variants={fadeInUp}
         className={classnames(
           "md:w-6/12 w-full h-full rounded-lg",
           // `bg-[url('/images/projects/${image}')]`,
           order == 1 ? "order-2" : ""
         )}
         src={image_url}
-      />
+      /> */}
+
+      <InView threshold={0.2}>
+        {({ inView, ref, entry }) => (
+          <motion.img
+            ref={ref}
+            initial="initial"
+            animate={inView ? "animate" : "initial"}
+            transition="transition"
+            variants={fadeInUp}
+            className={classnames(
+              "md:w-6/12 w-full h-full rounded-lg",
+              // `bg-[url('/images/projects/${image}')]`,
+              order == 1 ? "order-2" : ""
+            )}
+            src={image_url}
+          />
+        )}
+      </InView>
+
       <div className="vertical-scroll text-white sm:px-11 h-96 md:overflow-y-auto md:w-6/12 w-full">
         <h2
           key={index}
@@ -53,10 +105,12 @@ export default function ProjectItem({
             return <Stack key={index} image={element} />;
           })}
         </div>
-        <p key={index} className="text-left mb-1 text-sm sm:text-lg overflow-y-auto">
+        <p
+          key={index}
+          className="text-left mb-1 text-sm sm:text-lg overflow-y-auto"
+        >
           {description}
         </p>
-        
       </div>
     </article>
   );

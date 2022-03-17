@@ -1,4 +1,5 @@
 import classnames from "classnames";
+import Link from "react-scroll";
 
 export default function Button({ href, className, variant, children, pill }) {
     const variants = {
@@ -10,10 +11,12 @@ export default function Button({ href, className, variant, children, pill }) {
     const pickedVariant = variants[variant];
 
     return (
-        <a 
+        <a
             href={href} 
+            // to={href} 
+            // smooth={true} 
             className={classnames(
-                "transition py-3 px-10 font-semibold text-sm inline-block bg-green-400",
+                "transition py-3 px-10 cursor-pointer font-semibold text-sm inline-block bg-green-400",
                 pill && "rounded-full",
                 // pickedVariant,
                 className
