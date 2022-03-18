@@ -10,7 +10,7 @@ export default function ContactSection() {
         <div className="bg-white flex rounded-lg flex-wrap">
           <div className="md:w-6/12 w-full md:border-r border-b border-primarygray-200">
             <div className="lg:py-16 lg:px-20 md:p-14 p-10">
-              <SectionTitle left>Contact</SectionTitle>
+              <SectionTitle left black={true}>Contact</SectionTitle>
               <SectionParagraph left>
                 Beberapa cara menghubungi saya.
               </SectionParagraph>

@@ -4,6 +4,8 @@ import { useRef, useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
 import { Link } from "react-scroll";
+import { InView } from "react-intersection-observer";
+import { useInView } from "react-intersection-observer";
 
 export default function Hero() {
   const hero_ref = useRef(null);
@@ -24,7 +26,7 @@ export default function Hero() {
       {/* https://media.giphy.com/media/4H5jdBI1AEvS2xlra6/giphy-downsized.gif */}
       <div
         ref={hero_ref}
-        className="relative bg-fixed bg-center bg-cover bg-[url('/images/hero4-min.png')] md:h-screen overflow-y-hidden"
+        className="h-screen relative bg-fixed bg-center bg-cover bg-[url('/images/hero4-min.png')] md:h-screen overflow-y-hidden"
       >
         <div className="container h-full mx-auto px-20 2xl:px-0 overflow-y-hidden">
           <Navbar heroHeight={hero_height} />
@@ -57,25 +59,20 @@ export default function Hero() {
             >
               Aku anak baik yang suka menolong orang tua menyebrangi jalanan.
             </p>
-            <Link
-              style={{ transform: `translateY(${scrollY * 0.5}px)` }}
-              to="profile"
-              smooth={true}
-              className="absolute z-10 transition-all py-3 px-10 font-semibold text-sm inline-block bg-green-400 cursor-pointer mt-14 rounded-full hover:bg-yellow-600 text-white shadow-sm shadow-black"
-            >
-              Pelajari
-            </Link>
-            <Link
-              style={{ transform: `translateY(${scrollY * 0.5}px)` }}
-              // to="profile"
-              // smooth
-              className="transition-all py-3 px-10 font-semibold text-sm inline-block bg-green-400 cursor-pointer mt-14 rounded-full hover:bg-yellow-600 text-black"
-            >
-              Pelajari
-            </Link>
           </div>
         </div>
         {/* <image src="/images/hero1.png" className="absolute w-full"/> */}
+        <Link
+          style={{
+            transform: `translateY(${scrollY * 0.5}px)`,
+            width: "110px",
+          }}
+          to="profile"
+          smooth={true}
+          className="absolute z-10 mx-auto left-0 right-0 -mt-60 text-center transition-all py-3 font-semibold text-sm inline-block bg-green-400 cursor-pointer rounded-full hover:bg-yellow-600 text-white shadow-sm shadow-black"
+        >
+          Pelajari
+        </Link>
         <motion.div
           initial={{ y: "300px" }}
           animate={{ y: 0 }}

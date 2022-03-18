@@ -78,7 +78,7 @@ export default function Navbar({ heroHeight }) {
       <div
         id="navbar"
         className={classnames(
-          "transition-all duration-500 ease-in-out fixed top-0 left-0 right-0 h-7 w-screen px-10 py-8 flex items-center z-10",
+          "transition-all duration-500 ease-in-out fixed top-0 left-0 right-0 h-7 w-screen pl-7 sm:px-10 py-8 flex items-center z-10",
           black ? "bg-[#2d253a]" : "bg-transparent"
         )}
       >
@@ -116,7 +116,7 @@ export default function Navbar({ heroHeight }) {
 
       <div
         className={classnames(
-          "fixed bg-white z-10 top-0 h-full w-full p-10 md:hidden transition-all",
+          "fixed bg-white bg-opacity-75 z-10 top-0 h-full w-full p-10 md:hidden transition-all",
           offcanvas ? "right-0" : "-right-full"
         )}
       >

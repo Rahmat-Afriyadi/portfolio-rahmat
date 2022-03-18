@@ -72,7 +72,21 @@ export default function ProjectItem({
         src={image_url}
       /> */}
 
-      <InView threshold={0.2}>
+      <motion.img
+        // ref={ref}
+        // initial="initial"
+        // animate={inView ? "animate" : "initial"}
+        // transition="transition"
+        // variants={fadeInUp}
+        className={classnames(
+          "md:w-6/12 w-full h-full rounded-lg",
+          // `bg-[url('/images/projects/${image}')]`,
+          order == 1 ? "order-2" : ""
+        )}
+        src={image_url}
+      />
+
+      {/* <InView threshold={0.2}>
         {({ inView, ref, entry }) => (
           <motion.img
             ref={ref}
@@ -88,7 +102,7 @@ export default function ProjectItem({
             src={image_url}
           />
         )}
-      </InView>
+      </InView> */}
 
       <div className="vertical-scroll text-white sm:px-11 h-96 md:overflow-y-auto md:w-6/12 w-full">
         <h2
