@@ -3,7 +3,6 @@ import SectionParagraph from "./SectionParagraph";
 import SectionTitle from "./SectionTitle";
 import SkillCard from "./SkillCard";
 import { useEffect, useState, useRef } from "react";
-// import InView from "react-intersection-observer";
 import classnames from "classnames";
 
 const skillsData = require("../data/skills.json");

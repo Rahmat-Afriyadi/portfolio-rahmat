@@ -1,7 +1,4 @@
 import classnames from "classnames";
-import { useEffect } from "react";
-import Image from "next/dist/client/image";
-import { InView } from "react-intersection-observer";
 
 import Data from "../data/projects.json";
 import Stack from "./Stack";
@@ -28,12 +25,6 @@ const fadeInUp = {
   },
 };
 
-const kalauTampil = (inView, entry) => {
-  if (inView) {
-    entry.target.setAttribute("")
-  }
-  console.log("Inview:", inView);
-} 
 
 export default function ProjectItem({
   name,
@@ -45,42 +36,12 @@ export default function ProjectItem({
   const image_url = "/images/projects/" + image;
   const data = Data;
 
-  // stack.split(",").map((element) => {
-  //   stack_arr.push(element);
-  // });
-
   return (
     <article className="text-center w-full md:flex mb-16">
-      {/* <div
-        className={classnames(
-          "md:w-5/12 w-full h-full rounded-lg",
-          // `bg-[url('/images/projects/olshop1.png')]`,
-          order == 1 ? "order-2" : ""
-        )}
-      >
-        <Image key={index} alt={name} src={image_url} layout="fill" />
-      </div> */}
-      {/* <motion.img
-        initial="initial"
-        animate="animate"
-        variants={fadeInUp}
-        className={classnames(
-          "md:w-6/12 w-full h-full rounded-lg",
-          // `bg-[url('/images/projects/${image}')]`,
-          order == 1 ? "order-2" : ""
-        )}
-        src={image_url}
-      /> */}
 
       <motion.img
-        // ref={ref}
-        // initial="initial"
-        // animate={inView ? "animate" : "initial"}
-        // transition="transition"
-        // variants={fadeInUp}
         className={classnames(
           "md:w-6/12 w-full h-full rounded-lg",
-          // `bg-[url('/images/projects/${image}')]`,
           order == 1 ? "order-2" : ""
         )}
         src={image_url}
@@ -106,7 +67,6 @@ export default function ProjectItem({
 
       <div className="vertical-scroll text-white sm:px-11 h-96 md:overflow-y-auto md:w-6/12 w-full">
         <h2
-          key={index}
           className=" font-semibold mt-7 lg:-mt-1 text-2xl sm:text-5xl md:text-4xl lg:text-5xl mb-1"
         >
           {name}

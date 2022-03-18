@@ -1,11 +1,8 @@
 import Navbar from "./Navbar";
-import Button from "./Button";
 import { useRef, useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
 import { Link } from "react-scroll";
-import { InView } from "react-intersection-observer";
-import { useInView } from "react-intersection-observer";
 
 export default function Hero() {
   const hero_ref = useRef(null);
