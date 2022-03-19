@@ -98,7 +98,7 @@ export default function SectionSkills() {
           >
             Skills
           </h2>
-          <SectionParagraph>Beberapa kemampuan saya.</SectionParagraph>
+          <SectionParagraph>some of my current skills...</SectionParagraph>
           <div
             // style={{ transform: `translateX(${skillOffset * .2}px)` }}
             variants={stagger}

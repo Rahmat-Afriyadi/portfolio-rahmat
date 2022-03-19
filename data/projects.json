@@ -9,7 +9,7 @@
     "title" : "Aplikasi Kantin",
     "image" : "aplikasikantin.png",
     "stack" : ["php.svg","delphi.svg","firedac.svg"],
-    "description":"Aplikasi kantin ini di buat untuk keperluan kasir yang dapat mencat pesanan dan menyimpannya ke database. Aplikasi ini juga terintegrasi dengan payment Gateway sehingga pelanggan tidak perlu datang ke kantin untuk membayar. Aplikasi ini juga terintegrasi dengan API Ongkos Kirim sehingga pemilik kantin bisa menentukan besar harga ongkos kirim kepelanggan"
+    "description":"Aplikasi kantin ini di buat untuk keperluan kasir yang dapat mencatat pesanan dan menyimpannya ke database. Aplikasi ini juga terintegrasi dengan payment Gateway sehingga pelanggan tidak perlu datang ke kantin untuk membayar. Aplikasi ini juga terintegrasi dengan API Ongkos Kirim sehingga pemilik kantin bisa menentukan besar harga ongkos kirim kepelanggan"
   },
   {
     "title" : "Web Scraping",

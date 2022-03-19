@@ -16,7 +16,7 @@ export default function SectionProjects({ projectsData }) {
       <section ref={test} className="" id="projects">
         <div className="w-full mx-auto px-10 2xl:px-0 bg-[#2d253a] pt-20">
           <SectionTitle>Projects</SectionTitle>
-          <SectionParagraph>Beberapa proyek buatan saya.</SectionParagraph>
+          <SectionParagraph>some projects i have completed</SectionParagraph>
           <div className="flex -mx-4 mt-20 flex-wrap">
             {data.map((element, index) => {
               let a = index % 2 == 0 ? 0 : 1;
