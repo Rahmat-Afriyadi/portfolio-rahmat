@@ -25,10 +25,26 @@ export default function Profile() {
             transition={{ repeat: Infinity, duration: 5 }}
             className="aspect-[4/5] -mt-16 sm:-mt-0 md:w-5/12 w-full p-1 md:p-2 lg:p-3 scale-50 md:scale-90 lg:scale-100 rounded-xl"
           >
-            <motion.img alt="profile" src="/images/profile.jpg" layout="fill" className="rounded-lg" />
+            <motion.img
+              alt="profile"
+              src="/images/profile.jpg"
+              layout="fill"
+              className="rounded-lg"
+            />
           </motion.div>
           <div className="vertical-scroll -mt-32 sm:-mt-40 md:-mt-0 md:w-7/12 w-full pt-5 lg:pt-0 pb-10 px-10 overflow-y-auto md:h-[475px] lg:h-screen">
             <p className="text-md md:text-lg leading-relaxed">
+              &emsp;&emsp; Perkenalkan saya Rahmat Afriyadi cita cita ku ingin
+              menjadi tenaga ahli pada sebuah start up unicorn, Saat ini aku
+              seorang mahasiswa jurusan sistem informasi. untuk mengisi waktu
+              luang aku mengerjakan projek projek yang aku dapat dari client.
+              aku hobi membaca, banyak hal yang sering aku baca mulai dari buku
+              pengetahuan, manga, how to do something, tips and trick, dan lain
+              sebagainya. terkadang aku juga bermain game untuk mencari hiburan
+              dan untuk melatih kemampuan berkomunikasi serta kerja sama ku
+              dengan tim.
+            </p>
+            {/* <p className="text-md md:text-lg leading-relaxed">
               Perkenalkan saya Rahmat Afriyadi cita cita ku ingin menjadi
               antronot, tapi sebelum itu aku terlebih dahulu ingin menyelamatkan
               planet bumi dari ancaman 9 monster berekor. mungkin aku akan
@@ -46,7 +62,7 @@ export default function Profile() {
               untuk meneliti kehidupan yang ada disana dan Semoga bahan bakar
               pesawatku tidak habis sebelum diriku kembali ke planet bumi yang
               tidak ramah ini
-            </p>
+            </p> */}
           </div>
         </div>
       </div>
