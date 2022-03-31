@@ -33,7 +33,7 @@ export default function Hero() {
               id="saya"
               style={{ transform: `translateY(${scrollY * 0.65}px)` }}
             >
-              Saya Seorang{" "}
+              I am a{" "}
               <Typewriter
                 options={{
                   strings: [
@@ -54,7 +54,7 @@ export default function Hero() {
               className=" hidden md:block text-white text-opacity-60 text-lg 2xl:w-3/12 xl:w-4/12 lg:w-6/12 mx-auto mt-6 transition-all duration-500"
               style={{ transform: `translateY(${scrollY * 0.6}px)` }}
             >
-              Aku anak baik yang suka menolong orang tua menyebrangi jalanan.
+              I'm a good boy who likes to help old people cross the street.
             </p>
           </div>
         </div>

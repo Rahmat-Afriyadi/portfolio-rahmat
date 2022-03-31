@@ -12,7 +12,7 @@ export default function ContactSection() {
             <div className="lg:py-16 lg:px-20 md:p-14 p-10">
               <SectionTitle left black={true}>Contact</SectionTitle>
               <SectionParagraph left>
-                Beberapa cara menghubungi saya.
+                Several ways to contact me.
               </SectionParagraph>
 
               <ContactItem

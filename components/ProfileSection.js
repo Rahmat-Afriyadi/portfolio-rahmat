@@ -44,6 +44,16 @@ export default function Profile() {
               dan untuk melatih kemampuan berkomunikasi serta kerja sama ku
               dengan tim.
             </p>
+            <p className="text-md md:text-lg leading-relaxed">
+              &emsp;&emsp; i Am Rahmat Afriyadi my goal is to become an expert
+              at a startup unicorn now i am a collage student majoring in
+              information systems in between my college time i am working on
+              some project that i got from my client. my hobby is reading many
+              things i often read like knowladge books, manga, how to do
+              something, tips and trick and others. sometimes i also play game
+              online for refreshing, to practice my communication and
+              teamwork skills
+            </p>
             {/* <p className="text-md md:text-lg leading-relaxed">
               Perkenalkan saya Rahmat Afriyadi cita cita ku ingin menjadi
               antronot, tapi sebelum itu aku terlebih dahulu ingin menyelamatkan
