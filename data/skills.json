@@ -16,12 +16,12 @@
   },
   {
     "name": "PHP",
-    "level": "1 Years",
+    "level": "1 Year",
     "image": "php.svg"
   },
   {
     "name": "JSON",
-    "level": "1 Years",
+    "level": "1 Year",
     "image": "json.svg"
   },
   {
@@ -36,7 +36,7 @@
   },
   {
     "name": "Anaconda",
-    "level": "1 Years",
+    "level": "1 Year",
     "image": "anaconda.svg"
   },
   {
@@ -76,27 +76,27 @@
   },
   {
     "name": "Delphi",
-    "level": "1 Months",
+    "level": "1 Month",
     "image": "delphi.svg"
   },
   {
     "name": "REST API",
-    "level": "1 Years",
+    "level": "1 Year",
     "image": "restapi.svg"
   },
   {
     "name": "React JS",
-    "level": "1 Months",
+    "level": "1 Month",
     "image": "react.svg"
   },
   {
     "name": "Tailwind CSS",
-    "level": "1 Months",
+    "level": "1 Month",
     "image": "tailwind.svg"
   },
   {
     "name": "Laravel",
-    "level": "1 Years",
+    "level": "1 Year",
     "image": "laravel.svg"
   },
   {
@@ -106,22 +106,22 @@
   },
   {
     "name": "Nest JS",
-    "level": "1 Months",
+    "level": "1 Month",
     "image": "nestjs.svg"
   },
   {
     "name": "MySQL",
-    "level": "1 Years",
+    "level": "1 Year",
     "image": "mysql.svg"
   },
   {
     "name": "Vue JS",
-    "level": "1 Months",
+    "level": "1 Month",
     "image": "vuejs.svg"
   },
   {
     "name": "Mongoo DB",
-    "level": "1 Months",
+    "level": "1 Month",
     "image": "mongoodb.svg"
   }
 ]
