@@ -33,7 +33,7 @@ export default function Profile() {
             />
           </motion.div>
           <div className="vertical-scroll -mt-32 sm:-mt-40 md:-mt-0 md:w-7/12 w-full pt-5 lg:pt-0 pb-10 px-10 overflow-y-auto md:h-[475px] lg:h-screen">
-            <p className="text-md md:text-lg leading-relaxed">
+            {/* <p className="text-md md:text-lg leading-relaxed">
               &emsp;&emsp; Perkenalkan saya Rahmat Afriyadi cita cita ku ingin
               menjadi tenaga ahli pada sebuah start up unicorn, Saat ini aku
               seorang mahasiswa jurusan sistem informasi. untuk mengisi waktu
@@ -43,16 +43,16 @@ export default function Profile() {
               sebagainya. terkadang aku juga bermain game untuk mencari hiburan
               dan untuk melatih kemampuan berkomunikasi serta kerja sama ku
               dengan tim.
-            </p>
+            </p> */}
             <p className="text-md md:text-lg leading-relaxed">
-              &emsp;&emsp; i Am Rahmat Afriyadi my goal is to become an expert
-              at a startup unicorn now i am a collage student majoring in
-              information systems in between my college time i am working on
+              &emsp;&emsp; i Am Rahmat Afriyadi my goal is to become
+              an expert at a startup unicorn now i am a collage student majoring
+              in information systems in between my college time i am working on
               some project that i got from my client. my hobby is reading many
               things i often read like knowladge books, manga, how to do
               something, tips and trick and others. sometimes i also play game
-              online for refreshing, to practice my communication and
-              teamwork skills
+              online for refreshing, to practice my communication and teamwork
+              skills
             </p>
             {/* <p className="text-md md:text-lg leading-relaxed">
               Perkenalkan saya Rahmat Afriyadi cita cita ku ingin menjadi
