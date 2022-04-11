@@ -1,6 +1,4 @@
-import Button from "./Button";
 import ContactItem from "./ContactItem";
-import Field from "./Field";
 import SectionParagraph from "./SectionParagraph";
 import SectionTitle from "./SectionTitle";
 import { useState } from "react";
@@ -33,21 +31,19 @@ export default function ContactSection() {
       e.preventDefault();
       setLoading(true)
       const rawResponse = await fetch(
-        "http://localhost/contact/public/api/create/contact",
+        "https://contact-rahmat.devryank.tech/public/api/create/contact",
         {
           method: "POST",
           headers: {
             Accept: "application/json",
             "Content-Type": "application/json",
           },
-          body: JSON.stringify(
-            { 
-              name: name, 
-              email: email, 
-              subject: subject, 
-              message: message, 
-            }
-          ),
+          body: JSON.stringify({
+            name: name,
+            email: email,
+            subject: subject,
+            message: message,
+          }),
         }
       );
       const content = await rawResponse.json();
