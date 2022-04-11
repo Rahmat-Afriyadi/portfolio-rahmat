@@ -9,9 +9,9 @@ export default function NavItem({ href, scheme, children }) {
         dark: "text-black"
     }
 
-    var offset_value = 100
+    var offset_value = 10
     if (href == 'contact') {
-        offset_value = -30  
+        offset_value = 0  
     }
 
     const navClick = () => {

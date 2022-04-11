@@ -100,7 +100,7 @@ export default function Navbar({ heroHeight }) {
         </motion.div>
         <div className="w-3/12 text-right hidden lg:block">
           <Button href="#contact" pill variant="outline-yellow">
-            Kontak
+            contact
           </Button>
         </div>
         {/* <div className="w-9/12 md:hidden text-right"> */}
