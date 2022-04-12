@@ -48,21 +48,20 @@ export default function ContactSection() {
       );
       const content = await rawResponse.json();
 
-      console.log(content);
-      setLoading(false);
-      setShowModal(true);
-    }
-    const tutup = async (e) => {
-      e.preventDefault();
-      setLoading(false)   
-    }  
+      if (content != null) {
+        console.log(content);        
+        setLoading(false);
+        setShowModal(true);
+      }
 
+    }
   
 
     return (
       <>
         <motion.div
           variants={modal_animate}
+          initial="hidden"
           animate={showModal ? "show" : "hidden"}
           className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none"
         >
@@ -159,7 +158,7 @@ export default function ContactSection() {
                       type="text"
                       name="name"
                       id="name"
-                      className="bg-transparent border border-primarygray-300 py-3 px-6 w-full"
+                      className="bg-transparent border border-primarygray-300 py-3 px-3 w-full"
                       onChange={(e) => setName(e.target.value)}
                     />
                   </div>
@@ -174,7 +173,7 @@ export default function ContactSection() {
                       type="email"
                       name="email"
                       id="email"
-                      className="bg-transparent border border-primarygray-300 py-3 px-6 w-full"
+                      className="bg-transparent border border-primarygray-300 py-3 px-3 w-full"
                       onChange={(e) => setEmail(e.target.value)}
                     />
                   </div>
@@ -189,7 +188,7 @@ export default function ContactSection() {
                   type="text"
                   name="subject"
                   id="subject"
-                  className="bg-transparent border border-primarygray-300 py-3 px-6 w-full"
+                  className="bg-transparent border border-primarygray-300 py-3 px-3 w-full"
                   onChange={(e) => setSubject(e.target.value)}
                 />
                 <label
@@ -201,7 +200,7 @@ export default function ContactSection() {
                 <textarea
                   name="message"
                   id="message"
-                  className="h-40 bg-transparent border border-primarygray-300 py-3 px-6 w-full"
+                  className="h-40 bg-transparent border border-primarygray-300 py-3 px-3 w-full"
                   onChange={(e) => setMessage(e.target.value)}
                 />
                 <div className="text-right">
@@ -212,12 +211,12 @@ export default function ContactSection() {
                   >
                     Send
                   </button>
-                  <button
+                  {/* <button
                     className="transition py-3 px-10 cursor-pointer font-semibold text-sm inline-block bg-green-400 hover:bg-opacity-90 text-white"
                     onClick={tutup}
                   >
                     tutup
-                  </button>
+                  </button> */}
                 </div>
               </form>
             </div>
