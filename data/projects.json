@@ -26,7 +26,7 @@
   {
     "title" : "News Website",
     "image" : "news-01.png",
-    "stack" : ["laravel.svg","vue.svg","tailwind.svg"],
+    "stack" : ["laravel.svg","vuejs.svg","tailwind.svg"],
     "description":"a news website that integrates with mailgun and laravel passport as its auth system. This website was created so that my clients can post the latest updated news today"
   }
 ]
