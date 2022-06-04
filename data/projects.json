@@ -22,5 +22,11 @@
     "image" : "olshopdjango1-01.png",
     "stack" : ["jquery.svg","bootstrap.svg","django.svg"],
     "description":"This is an online shop website that only has 1 seller and has many buyers, this website is the first generation of my online shop waarungg. this website also not integrated with payment Gateaways and postage API. but the difference is that I developed this website with django and bootstrap"
+  },
+  {
+    "title" : "News Website",
+    "image" : "news-01.png",
+    "stack" : ["laravel.svg","vue.svg","tailwind.svg"],
+    "description":"a news website that integrates with mailgun and laravel passport as its auth system. This website was created so that my clients can post the latest updated news today"
   }
 ]
