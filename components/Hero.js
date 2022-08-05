@@ -74,7 +74,7 @@ export default function Hero() {
           initial={{ y: "300px" }}
           animate={{ y: 0 }}
           transition={{ duration: 2, type: "tween" }}
-          className="md:block absolute w-full h-screen bg-[url('/images/hero2.png')] top-0 bg-center bg-cover"
+          className="md:block absolute w-full h-screen bg-[url('/images/hero2.png')] top-0 bg-center bg-cover z-10 hero2"
           style={{ transform: `translateY(-${scrollY * 0.06}px)` }}
         ></motion.div>
         <div

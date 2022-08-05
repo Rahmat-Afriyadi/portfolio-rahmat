@@ -1,9 +1,9 @@
 [
   {
-    "title" : "Olshop waarungg",
+    "title" : "Waarungg E-commerce",
     "image" : "olshop1.png",
     "stack" : ["laravel.svg", "vuejs.svg", "tailwind.svg"],
-    "description":"This is an online shop website that only has 1 seller and has many buyers. This website is integrated with payment gateways, postage and postal code databases throughout Indonesia"
+    "description":"This is an Website E-commerce, there are many sellers and many buyers who can use this website for business. This website is integrated with payment gateways, postage and postal code databases throughout Indonesia"
   },
   {
     "title" : "Canteen Application",
@@ -21,12 +21,18 @@
     "title" : "Olshop waarungg DJango",
     "image" : "olshopdjango1-01.png",
     "stack" : ["jquery.svg","bootstrap.svg","django.svg"],
-    "description":"This is an online shop website that only has 1 seller and has many buyers, this website is the first generation of my online shop waarungg. this website also not integrated with payment Gateaways and postage API. but the difference is that I developed this website with django and bootstrap"
+    "description":"This is an online shop website that only has 1 seller and has many buyers, this website is the first generation of my Waarungg E-commerce. this website also not integrated with payment Gateaways and postage API. but the difference is that I developed this website with django and bootstrap"
   },
   {
     "title" : "News Website",
     "image" : "news-01.png",
     "stack" : ["laravel.svg","vuejs.svg","tailwind.svg"],
     "description":"a news website that integrates with mailgun and laravel passport as its auth system. This website was created so that my clients can post the latest updated news today"
+  },
+  {
+    "title" : "Hospital Information System",
+    "image" : "simrs.png",
+    "stack" : ["laravel.svg","vuejs.svg","tailwind.svg"],
+    "description":"Web Application to support the delivery of health services"
   }
 ]

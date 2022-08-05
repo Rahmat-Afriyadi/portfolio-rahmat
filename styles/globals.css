@@ -43,3 +43,7 @@ html {
 .item_direction {
     direction:ltr;
   }
+
+.hero2 {
+  pointer-events: none
+}

@@ -9,11 +9,9 @@ import Data from "../data/projects.json"
 
 export default function SectionProjects({ projectsData }) {
   const data = Data
-  // console.log('ini datanya ', data)
-  const test = useRef(null);
   return (
     <>
-      <section ref={test} className="" id="projects">
+      <section className="" id="projects">
         <div className="w-full mx-auto px-10 2xl:px-0 bg-[#2d253a] pt-20">
           <SectionTitle>Projects</SectionTitle>
           <SectionParagraph>some projects i have completed</SectionParagraph>
