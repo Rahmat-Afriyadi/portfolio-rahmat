@@ -14,7 +14,7 @@ export default function Stack({ image, name}) {
         mount: { scale: 1, y: 0 },
         unmount: { scale: 0, y: 25 },
     }}>
-      <Button className="shadow-md shadow-cyan-500/90" variant="gradient"><motion.img
+      <Button variant="gradient"><motion.img
       className={classnames(
         "h-11 w-11 mx-1 bg-cover bg-center bg-white/95 rounded-2xl shadow-smd shadow-yellow-100",
       `bg-[url('/images/stack/${image}')]`
