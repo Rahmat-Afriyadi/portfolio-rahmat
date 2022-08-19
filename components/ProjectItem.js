@@ -73,6 +73,7 @@ export default function ProjectItem({
           {name}
         </h2>
         <small key={index}>{date}</small>
+        <br></br>
         <div
           key={index}
           className="flex justify-center items-center my-5 w-full"
