@@ -8,10 +8,10 @@ export default function Profile() {
     <section className="pt-10 pb-28 bg-[#2d253a] z-10" id="profile">
       <div className="container mx-auto md:px-10 2xl:px-0">
         <SectionTitle>Profile</SectionTitle>
-        <SectionParagraph>Mengenal saya secara singkat.</SectionParagraph>
+        <SectionParagraph>About myself.</SectionParagraph>
 
-        <div className="flex lg:items-center md:items-start text-white flex-wrap xl:w-9/12 mx-auto -mt-10 md:mt-10">
-          <motion.div
+        <div className="flex md:items-start text-white flex-wrap xl:w-9/12 mx-auto -mt-10 md:mt-10 h-screen">
+          <motion.div className="aspect-[4/5] md:w-5/12 p-1 md:p-2 lg:p-3 scale-50 md:scale-90 lg:scale-100 rounded-xl"
             //   initial={{ backgroundColor: "hsl(0, 100, 50)" }}
             animate={{
               backgroundColor: [
@@ -22,17 +22,16 @@ export default function Profile() {
                 "hsl(0, 100, 75)",
               ],
             }}
-            transition={{ repeat: Infinity, duration: 5 }}
-            className="aspect-[4/5] -mt-16 sm:-mt-0 md:w-5/12 w-full p-1 md:p-2 lg:p-3 scale-50 md:scale-90 lg:scale-100 rounded-xl"
+            transition={{ repeat: Infinity, duration: 5 }}            
           >
             <motion.img
               alt="profile"
-              src="/images/profile.jpg"
+              src="/images/profile2.jpg"
               layout="fill"
               className="rounded-lg"
             />
           </motion.div>
-          <div className="vertical-scroll -mt-32 sm:-mt-40 md:-mt-0 md:w-7/12 w-full pt-5 lg:pt-0 pb-10 px-10 overflow-y-auto md:h-[475px] lg:h-screen">
+          <div className="vertical-scroll -mt-32 md:text-md sm:-mt-40 md:-mt-0 md:w-7/12 w-full pt-5 lg:pt-0 pb-10 px-5 md:px-9 overflow-y-auto md:h-[500px] lg:h-screen">
             {/* <p className="text-md md:text-lg leading-relaxed">
               &emsp;&emsp; Perkenalkan saya Rahmat Afriyadi cita cita ku ingin
               menjadi tenaga ahli pada sebuah start up unicorn, Saat ini aku
@@ -44,7 +43,7 @@ export default function Profile() {
               dan untuk melatih kemampuan berkomunikasi serta kerja sama ku
               dengan tim.
             </p> */}
-            <p className="text-md md:text-lg leading-relaxed">
+            {/* <p className="text-md md:text-lg leading-relaxed">
               &emsp;&emsp; i Am Rahmat Afriyadi my goal is to become
               an expert at a startup unicorn now i am a collage student majoring
               in information systems in between my college time i am working on
@@ -53,7 +52,25 @@ export default function Profile() {
               something, tips and trick and others. sometimes i also play game
               online for refreshing, to practice my communication and teamwork
               skills
-            </p>
+            </p> */}
+            <bold className="text-2xl font-semibold">My goal</bold>
+            <ul className="text-[15px] md:text-md">
+              <li>&nbsp; &#8226; Become an expert at a startup unicorn</li>
+            </ul>
+            <br></br>
+            <bold className="text-2xl font-semibold">My hobby</bold>
+            <ul className="text-[15px] md:text-md">
+              <li>&nbsp; &#8226; Playing game</li>
+              <li>&nbsp; &#8226; Reading, like manga, knowladge books, etc</li>
+            </ul>
+            <br></br>
+            <bold className="text-2xl font-semibold">My experience</bold>
+            <ul className="text-[15px] md:text-md">
+              <li>&nbsp; &#8226; Ministry of environment and forestry (Sep 2018 - Nov 2018)</li>
+              <li>&nbsp; &#8226; Assessment and Learning Center (Oct 2021 - Dec 2021)</li>
+              <li>&nbsp; &#8226; Waarungg (Sep 2021 - Present)</li>
+            </ul>
+            
             {/* <p className="text-md md:text-lg leading-relaxed">
               Perkenalkan saya Rahmat Afriyadi cita cita ku ingin menjadi
               antronot, tapi sebelum itu aku terlebih dahulu ingin menyelamatkan

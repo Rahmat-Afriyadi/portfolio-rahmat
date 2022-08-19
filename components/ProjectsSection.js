@@ -27,6 +27,7 @@ export default function SectionProjects({ projectsData }) {
                     image={element.image}
                     description={element.description}
                     index={index}
+                    date={element.date}
                     order={a}
                   />
                   <hr key={index} className="mt-7 mb-12"></hr>

@@ -32,6 +32,7 @@ export default function ProjectItem({
   image,
   index,
   order,
+  date
 }) {
   const image_url = "/images/projects/" + image;
   const data = Data;
@@ -71,12 +72,13 @@ export default function ProjectItem({
         >
           {name}
         </h2>
+        <small key={index}>{date}</small>
         <div
           key={index}
           className="flex justify-center items-center my-5 w-full"
         >
           {data[index].stack.map((element) => {
-            return <Stack key={index} image={element} />;
+            return <Stack key={index} image={element['image']} name={element['name']}/>;
           })}
         </div>
         <p

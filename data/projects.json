@@ -1,38 +1,70 @@
 [
   {
-    "title" : "Waarungg E-commerce",
-    "image" : "olshop1.png",
-    "stack" : ["laravel.svg", "vuejs.svg", "tailwind.svg"],
-    "description":"This is an Website E-commerce, there are many sellers and many buyers who can use this website for business. This website is integrated with payment gateways, postage and postal code databases throughout Indonesia"
-  },
-  {
-    "title" : "Canteen Application",
-    "image" : "aplikasikantin.png",
-    "stack" : ["php.svg","delphi.svg","firedac.svg"],
-    "description":"This canteen application is made for cashiers who can record orders and save them to a database. This application is also integrated with the payment gateway so that customers do not need to come to the canteen to pay. This application is also integrated with the postage API so that the canteen owner can determine the cost of shipping costs to customers"
-  },
+    "title" : "Olshop waarungg DJango",
+    "image" : "olshopdjango1-01.png",
+    "date" : "March, 2021",
+    "stack" : [
+      {"name":"JQuery","image":"jquery.svg"},
+      {"name":"Bootstrap","image":"bootstrap.svg"},
+      {"name":"Django 3.1.4","image":"django.svg"}
+    ],
+    "description":"This is an online shop website that only has 1 seller and has many buyers, this website is the first generation of my Waarungg E-commerce. this website also not integrated with payment Gateaways and postage API. but the difference is that I developed this website with django and bootstrap"
+  },  
   {
     "title" : "Web Scraping",
     "image" : "kodepos1.png",
-    "stack" : ["anaconda.svg","pandas.svg","beautifulshop.svg"],
-    "description": "a project to create a postal code database throughout Indonesia, for data purposes I do web scraping activities on the carikodepos.com website. It should be noted that the carikodepos.com site frees visitors to do web scraping"
-  },
+    "date" : "December, 2021",
+    "stack" : [
+      {"name":"Anaconda 4.10.3","image":"anaconda.svg"},
+      {"name":"Pandas 1.3.4","image":"pandas.svg"},
+      {"name":"BeautifulSoup 4.10.0","image":"beautifulshop.svg"}
+    ],
+    "description": "A project to create a postal code database throughout Indonesia for data purposes that I do web scraping activities on the carikodepos.com website. It should be noted that the carikodepos.com site frees visitors to do web scraping"
+  },  
   {
-    "title" : "Olshop waarungg DJango",
-    "image" : "olshopdjango1-01.png",
-    "stack" : ["jquery.svg","bootstrap.svg","django.svg"],
-    "description":"This is an online shop website that only has 1 seller and has many buyers, this website is the first generation of my Waarungg E-commerce. this website also not integrated with payment Gateaways and postage API. but the difference is that I developed this website with django and bootstrap"
+    "title" : "Decision Support System with SAW Method",
+    "image" : "saw.png",
+    "date" : "April, 2021",
+    "stack" : [
+      {"name":"Codeigneter 3","image":"ci.svg"},
+      {"name":"My SQL","image":"mysql.svg"},
+      {"name":"Bootstrap 4","image":"bootstrap.svg"}
+    ],
+    "description":"Added the simple additive weighting (SAW) feature to an existing system. This feature was created to evaluate employee performance in a company"
   },
   {
     "title" : "News Website",
     "image" : "news-01.png",
-    "stack" : ["laravel.svg","vuejs.svg","tailwind.svg"],
-    "description":"a news website that integrates with mailgun and laravel passport as its auth system. This website was created so that my clients can post the latest updated news today"
+    "date" : "May, 2022",
+    "stack" : [
+      {"name":"Laravel 9.0", "image":"laravel.svg"},
+      {"name":"Nuxt JS 2.15", "image":"vuejs.svg"},
+      {"name":"Tailwind 2.0", "image":"tailwind.svg"}
+    ],
+    "description":"A news website that integrates with mailgun and laravel passport as its auth system. This website was created so that my clients can post the latest updated news today"
   },
   {
-    "title" : "Hospital Information System",
+    "title" : "Waarungg E-commerce",
+    "image" : "olshop1.png",
+    "date" : "June, 2022",
+    "stack" : 
+    [
+      {"name":"Laravel 9.0", "image":"laravel.svg"},
+      {"name":"Nuxt JS 2.15", "image":"vuejs.svg"},
+      {"name":"Tailwind 2.0", "image":"tailwind.svg"}
+    ],
+    "description":"It is a Website E-commerce. There are many sellers and many buyers who can use this website for business. This website is integrated with payment gateways, postage, and postal code databases throughout Indonesia"
+  },
+  {
+    "title" : "Hospital Information System ",
     "image" : "simrs.png",
-    "stack" : ["laravel.svg","vuejs.svg","tailwind.svg"],
+    "date" : "August, 2022",
+    "stack" : [
+      {"name":"Laravel 9.0", "image":"laravel.svg"},
+      {"name":"Nuxt JS 2.15", "image":"vuejs.svg"},
+      {"name":"Tailwind 2.0", "image":"tailwind.svg"}
+    ],
     "description":"Web Application to support the delivery of health services"
   }
+  
 ]

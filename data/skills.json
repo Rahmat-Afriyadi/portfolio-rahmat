@@ -16,7 +16,7 @@
   },
   {
     "name": "PHP",
-    "level": "1 Year",
+    "level": "2 Year",
     "image": "php.svg"
   },
   {
@@ -48,21 +48,6 @@
     "name": "DJango",
     "level": "6 Months",
     "image": "django.svg"
-  },
-  {
-    "name": "Adobe Photoshop",
-    "level": "4 Years",
-    "image": "adobephotoshop.svg"
-  },
-  {
-    "name": "Adobe Illustrator",
-    "level": "2 Years",
-    "image": "adobeillustrator.svg"
-  },
-  {
-    "name": "Blender 3D",
-    "level": "2 Year",
-    "image": "blender3d.svg"
   },
   {
     "name": "R Programming",
@@ -111,7 +96,7 @@
   },
   {
     "name": "MySQL",
-    "level": "1 Year",
+    "level": "2 Year",
     "image": "mysql.svg"
   },
   {
