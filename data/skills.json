@@ -85,6 +85,11 @@
     "image": "laravel.svg"
   },
   {
+    "name": "Golang",
+    "level": "1 Years",
+    "image": "golang1-01.png"
+  },
+  {
     "name": "Lumen",
     "level": "6 Months",
     "image": "lumen.svg"

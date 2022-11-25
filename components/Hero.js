@@ -18,6 +18,7 @@ export default function Hero() {
       window.removeEventListener("scroll", handleScroll);
     };
   }, [scrollY]);
+  
   return (
     <>
       {/* https://media.giphy.com/media/4H5jdBI1AEvS2xlra6/giphy-downsized.gif */}

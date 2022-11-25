@@ -1,12 +1,15 @@
-import ContactSection from "../components/ContactSection";
-import Footer from "../components/Footer";
-import Hero from "../components/Hero";
-import ProfileSeciton from "../components/ProfileSection";
-import ProjectsSection from "../components/ProjectsSection";
-import SkillsSection from "../components/SkillsSection";
+import dynamic from 'next/dynamic';
+
+const ContactSection = dynamic(() => import("../components/ContactSection"), { ssr: false })  ;
+const Footer = dynamic(() => import("../components/Footer"), { ssr: false })  ;
+const Hero = dynamic(() => import("../components/Hero"), { ssr: false })  ;
+const ProfileSeciton = dynamic(() => import("../components/ProfileSection"), { ssr: false })  ;
+const ProjectsSection = dynamic(() => import("../components/ProjectsSection"), { ssr: false })  ;
+const SkillsSection = dynamic(() => import("../components/SkillsSection"), { ssr: false })  ;
 
 import { useState, useEffect, useRef } from "react";
 import Data from "../data/projects.json";
+import Mobile from "../components/Mobile";
 
 export default function Home({props}) {
   const [scrollY, setScrollY] = useState(0);
@@ -30,6 +33,7 @@ export default function Home({props}) {
       <ProjectsSection projectsData={data.data} />
       <ContactSection />
       <Footer />
+      {/* <Mobile /> */}
     </>
   );
 }

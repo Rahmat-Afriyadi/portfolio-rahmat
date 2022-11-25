@@ -31,7 +31,7 @@ export default function ContactSection() {
       e.preventDefault();
       setLoading(true)
       const rawResponse = await fetch(
-        "https://contact-rahmat.devryank.tech/public/api/create/contact",
+        "https://contact-rahmat.devryank.dev/public/api/create/contact",
         {
           method: "POST",
           headers: {
@@ -49,7 +49,6 @@ export default function ContactSection() {
       const content = await rawResponse.json();
 
       if (content != null) {
-        console.log(content);        
         setLoading(false);
         setShowModal(true);
       }
