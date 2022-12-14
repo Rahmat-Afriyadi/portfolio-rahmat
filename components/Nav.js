@@ -40,6 +40,14 @@ export default function Nav({ scheme, dir }) {
           variants={item}
           // transition={{ delay: 2, duration: 1 }}
         >
+          <NavItem scheme={scheme} href="/">
+            Beranda
+          </NavItem>
+        </motion.div>
+        <motion.div
+          variants={item}
+          // transition={{ delay: 2, duration: 1 }}
+        >
           <NavItem scheme={scheme} href="profile">
             Profile
           </NavItem>

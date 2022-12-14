@@ -12,7 +12,7 @@ export default function SectionProjects({ projectsData }) {
   return (
     <>
       <section className="" id="projects">
-        <div className="w-full mx-auto px-10 2xl:px-0 bg-[#2d253a] pt-20">
+        <div className="w-full mx-auto px-10 2xl:px-0 bg-[#2d253a] pt-16">
           <SectionTitle>Projects</SectionTitle>
           <SectionParagraph>some projects i have completed</SectionParagraph>
           <div className="flex -mx-4 mt-20 flex-wrap">

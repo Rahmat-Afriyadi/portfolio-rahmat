@@ -62,11 +62,11 @@ export default function ContactSection() {
           variants={modal_animate}
           initial="hidden"
           animate={showModal ? "show" : "hidden"}
-          className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none"
+          className="justify-center items-center flex overflow-x-hidden fixed inset-0 z-50 outline-none focus:outline-none"
         >
-          <div className="relative w-auto my-6 mx-auto max-w-3xl z-20">
+          <div className="relative w-auto my-6 mx-auto max-w-3xl z-20 ">
             {/*content*/}
-            <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
+            <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-[#2d253a] outline-none focus:outline-none">
               {/*header*/}
               <div className="flex items-center p-5 border-b border-solid border-slate-200 rounded-t justify-center">
                 <h3 className="text-3xl font-semibold">Thanks for submit</h3>

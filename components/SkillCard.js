@@ -51,7 +51,7 @@ export default function SkillCard({ name, level, image, imageClassName }) {
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
         // className="relative bg-grey shadow-skill p-6 rounded-lg grid text-center"
-        className="shadow-md shadow-cyan-500/50 relative bg-white p-6 rounded-lg flex items-center text-center"
+        className="shadow-md shadow-cyan-500/50 relative bg-white bg-opacity-20 p-6 rounded-lg flex items-center text-center"
       >
         <motion.img
           src={image_url}
@@ -60,8 +60,8 @@ export default function SkillCard({ name, level, image, imageClassName }) {
           className={classnames("mr-7", addImageClassName)}
         />
         <div className="flex flex-col justify-center content-center mr-5 h-20 w-24 rounded-full bg-cover bg-center text-center ">
-          <h4 className="text-lg font-semibold">{name}</h4>
-          <p className="text-sm text-gray-400 font-semibold mt-1">{level}</p>
+          <h4 className="text-lg text-white font-semibold">{name}</h4>
+          <p className="text-sm text-gray-300 font-semibold mt-1">{level}</p>
         </div>
       </div>
     </>

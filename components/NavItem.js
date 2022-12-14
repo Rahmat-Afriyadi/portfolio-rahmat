@@ -14,34 +14,26 @@ export default function NavItem({ href, scheme, children }) {
         offset_value = 0  
     }
 
-    const navClick = () => {
-      // setBlack(true)
-      // console.log("bisa nih ininya itu ", black)
-    }
-
-    // useEffect(()=>{
-
-    // })
-    
-    const pickedScheme = schemes[scheme];
+   const pickedScheme = schemes[scheme];
 
     return (
       <motion.li
         whileHover={{ scale: 1.2, originX: 0 }}
         transition={{ type: "spring", stiffness: 300 }}
       >
-        <Link
-          to={href}
-          onClick={navClick}
+        <a
+        href={href}
+          // to={href}
           className={classnames(
             "text-lg transition font-semibold cursor-pointer",
             pickedScheme
           )}
-          smooth={true}
-          offset={offset_value}
+          // smooth={true}
+          // offset={offset_value}
         >
+        
           {children}
-        </Link>
+        </a>
       </motion.li>
     );
 }

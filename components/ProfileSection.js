@@ -5,13 +5,14 @@ import Image from "next/dist/client/image";
 
 export default function Profile() {
   return (
-    <section className="pt-10 pb-28 bg-[#2d253a] z-10" id="profile">
+    <section className="pt-10 pb-1 bg-[#2d253a] z-10" id="profile">
       <div className="container mx-auto md:px-10 2xl:px-0">
+        <br></br>
         <SectionTitle>Profile</SectionTitle>
         <SectionParagraph>About myself.</SectionParagraph>
 
-        <div className="flex md:items-start text-white flex-wrap xl:w-9/12 mx-auto -mt-10 md:mt-10 h-screen">
-          <motion.div className="aspect-[4/5] md:w-5/12 p-1 md:p-2 lg:p-3 scale-50 md:scale-90 lg:scale-100 rounded-xl"
+        <div className="flex md:items-start text-white flex-wrap xl:w-9/12 mx-auto -mt-10 md:mt-10 h-auto">
+          <motion.div className="aspect-[4/5] md:w-5/12 p-1 md:p-2 lg:p-3 scale-50 md:scale-90 lg:scale-100 rounded-x -mt-32 md:-mt-0 lg:mt-3 rounded-lg"
             //   initial={{ backgroundColor: "hsl(0, 100, 50)" }}
             animate={{
               backgroundColor: [

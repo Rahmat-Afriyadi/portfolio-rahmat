@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 import Image from "next/dist/client/image";
 
 
-export default function Navbar({ heroHeight }) {
+export default function Navbar({ heroHeight, notHome = false }) {
   const [offcanvas, setOffcanvas] = useState(false);
   const [black, setBlack] = useState(false);
   const [y, setY] = useState(0);
@@ -79,7 +79,7 @@ export default function Navbar({ heroHeight }) {
         id="navbar"
         className={classnames(
           "transition-all duration-500 ease-in-out fixed top-0 left-0 right-0 h-7 w-screen pl-7 sm:px-10 py-8 flex items-center z-10",
-          black ? "bg-[#2d253a]" : "bg-transparent"
+          black || notHome ? "bg-[#2d253a]" : "bg-transparent"
         )}
       >
         <div className="w-10/12 md:w-5/12 lg:w-3/12">

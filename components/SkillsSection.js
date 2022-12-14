@@ -88,13 +88,14 @@ export default function SectionSkills() {
       <motion.section
         initial="initial"
         animate={offset_on ? "animate" : "initial"}
-        className="pt-12 pb-3 bg-primarygray "
+        className="pt-12 pb-3  bg-[#2d253a]"
+        // className="pt-12 pb-3 bg-primarygray  bg-[#2d253a]"
         id="skills"
         ref={skills_ref}
       >
         <div className="container mx-auto px-10 2xl:px-0 overflow-x-hidden pt-10 pb-1">
           <h2
-            className={`text-black text-2xl font-semibold font-mono text-center`}
+            className={`text-white text-2xl font-semibold font-mono text-center`}
           >
             Skills
           </h2>
