@@ -5,10 +5,9 @@ import { useRef } from "react";
 import classnames from "classnames";
 
 const projectsData = require("../data/projects.json");
-import Data from "../data/projects.json"
 
 export default function SectionProjects({ projectsData }) {
-  const data = Data
+  const data = projectsData
   return (
     <>
       <section className="" id="projects">

@@ -3,7 +3,7 @@ import dynamic from 'next/dynamic';
 const Navbar = dynamic(() => import("../components/Navbar"), { ssr: false })  ;
 const SkillsSection = dynamic(() => import("../components/SkillsSection"), { ssr: false })  ;
 
-export default function skills(){
+export default function Skills(){
     return (
         <>
             <Navbar heroHeight={0} notHome={false} />

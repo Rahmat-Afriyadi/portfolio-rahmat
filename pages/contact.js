@@ -11,7 +11,7 @@ const Logo = dynamic(() => import("../components/Logo"), { ssr: false })  ;
 const Button = dynamic(() => import("../components/Button"), { ssr: false })  ;
 
 
-export default function contact(){
+export default function Contact(){
     const [offcanvas, setOffcanvas] = useState(false);
 
     return (

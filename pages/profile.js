@@ -3,7 +3,7 @@ import dynamic from 'next/dynamic';
 const ProfileSeciton = dynamic(() => import("../components/ProfileSection"), { ssr: false })  ;
 const Navbar = dynamic(() => import("../components/Navbar"), { ssr: false })  ;
 
-export default function profile(){
+export default function Profile(){
     return (
         <>
             <Navbar heroHeight={0} />

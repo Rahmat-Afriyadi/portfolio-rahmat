@@ -4,7 +4,7 @@ const Navbar = dynamic(() => import("../components/Navbar"), { ssr: false })  ;
 const ProjectsSection = dynamic(() => import("../components/ProjectsSection"), { ssr: false })  ;
 import Data from "../data/projects.json";
 
-export default function projects({props}){
+export default function Projects({props}){
     const data = props
     return (
         <>
@@ -17,7 +17,7 @@ export default function projects({props}){
     )
 }
 
- projects.getInitialProps = () => {    
+ Projects.getInitialProps = () => {    
    return {
      props: {
        data: Data,
