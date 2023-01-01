@@ -64,5 +64,27 @@
       { "name": "Tailwind 2.0", "image": "tailwind.svg" }
     ],
     "description": "Web Application to support the delivery of health services"
+  },
+  {
+    "title": "Library Management System",
+    "image": "library.PNG",
+    "date": "September, 2022",
+    "stack": [
+      { "name": "Laravel 9.0", "image": "laravel.svg" },
+      { "name": "Nuxt JS 2.15", "image": "vuejs.svg" },
+      { "name": "Tailwind 2.0", "image": "tailwind.svg" }
+    ],
+    "description": "Web Application to support Admin for managing a lot of data about borrowing books and information about book details. See pustaka.anambaskab.go.id "
+  },
+  {
+    "title": "Ketipas Web App",
+    "image": "disdik.png",
+    "date": "Desember, 2022",
+    "stack": [
+      { "name": "Laravel 9.0", "image": "laravel.svg" },
+      { "name": "Nuxt JS 2.15", "image": "vuejs.svg" },
+      { "name": "Tailwind 2.0", "image": "tailwind.svg" }
+    ],
+    "description": "Web Application about education office in Riau making 100 thousand data well organized. Developed by Laravel 9 and Nuxt JS. See ketipas.anambaskab.go.id"
   }
 ]

@@ -68,7 +68,7 @@ export default function ProjectItem({
 
       <div className="vertical-scroll text-white sm:px-11 h-96 md:overflow-y-auto md:w-6/12 w-full">
         <h2
-          className=" font-semibold mt-7 lg:-mt-1 text-2xl sm:text-5xl md:text-4xl lg:text-5xl mb-1"
+          className=" font-semibold mt-7 lg:-mt-1 text-2xl sm:text-5xl md:text-4xl lg:text-4xl mb-1"
         >
           {name}
         </h2>
