@@ -27,7 +27,7 @@ export default function Profile() {
           >
             <motion.img
               alt="profile"
-              src="/images/profile2.jpg"
+              src="/images/profilefix.jpg"
               layout="fill"
               className="rounded-lg"
             />
