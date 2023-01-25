@@ -2,7 +2,6 @@ import classnames from "classnames";
 import Image from "next/dist/client/image";
 import { motion } from "framer-motion";
 import { Tooltip, Button } from "@material-tailwind/react";
-import { elementDragControls } from "framer-motion/types/gestures/drag/VisualElementDragControls";
 // import Image from "next/dist/client/image";
 export default function Stack({ image, name}) {
   const image_url = "/images/stack/" + image
