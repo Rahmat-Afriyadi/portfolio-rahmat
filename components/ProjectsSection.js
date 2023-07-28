@@ -6,6 +6,7 @@ const projectsData = require("../data/projects.json");
 
 export default function SectionProjects({ projectsData }) {
   const data = projectsData;
+  console.log("ini");
   return (
     <>
       <section className="" id="projects">
