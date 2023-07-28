@@ -1,0 +1,42 @@
+[
+  {
+    "name": "HTML",
+    "level": "5 Years",
+    "image": "html.svg"
+  },
+  {
+    "name": "CSS",
+    "level": "5 Years",
+    "image": "css.svg"
+  },
+  {
+    "name": "Javascript",
+    "level": "3 Years",
+    "image": "javascript.svg"
+  },
+  {
+    "name": "PHP",
+    "level": "3 Years",
+    "image": "php.svg"
+  },
+  {
+    "name": "Python",
+    "level": "2 Years",
+    "image": "python.svg"
+  },
+  {
+    "name": "Golang",
+    "level": "1 Years",
+    "image": "golang1-01.png"
+  },
+  {
+    "name": "R Programming",
+    "level": "6 Months",
+    "image": "R.svg"
+  },
+  {
+    "name": "MySQL",
+    "level": "2 Year",
+    "image": "mysql.svg"
+  }
+]

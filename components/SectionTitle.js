@@ -1,9 +1,9 @@
-export default function SectionTitle({ left, children, black=false }) {
+export default function SectionTitle({ left, children, black = true }) {
   return (
     <h2
-      className={` text-2xl font-semibold font-mono${
-        !left ? " text-center" : ""
-      } ${black ? "text-black" : "text-white"}`}
+      className={`text-2xl font-semibold font-mono${!left ? " text-center" : ""} ${
+        black ? "text-white" : "text-black"
+      }`}
     >
       {children}
     </h2>

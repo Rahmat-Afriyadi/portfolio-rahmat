@@ -6,7 +6,6 @@ import classnames from "classnames";
 import { motion } from "framer-motion";
 import Image from "next/dist/client/image";
 
-
 export default function Navbar({ heroHeight, notHome = false }) {
   const [offcanvas, setOffcanvas] = useState(false);
   const [black, setBlack] = useState(false);
@@ -99,7 +98,7 @@ export default function Navbar({ heroHeight, notHome = false }) {
           <Nav dir="horizontal" scheme="light" />
         </motion.div>
         <div className="w-3/12 text-right hidden lg:block">
-          <Button href="#contact" pill variant="outline-yellow">
+          <Button href="contact" pill variant="outline-yellow">
             contact
           </Button>
         </div>

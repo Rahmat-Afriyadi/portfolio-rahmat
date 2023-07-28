@@ -13,15 +13,14 @@ export default function Hero() {
     const handleScroll = () => {
       setScrollY(window.scrollY);
     };
-    window.addEventListener("scroll", handleScroll)
+    window.addEventListener("scroll", handleScroll);
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, [scrollY]);
-  
+
   return (
     <>
-      {/* https://media.giphy.com/media/4H5jdBI1AEvS2xlra6/giphy-downsized.gif */}
       <div
         ref={hero_ref}
         className="h-screen relative bg-fixed bg-center bg-cover bg-[url('/images/hero4-min.png')] md:h-screen overflow-y-hidden"
@@ -32,16 +31,12 @@ export default function Hero() {
             <motion.h1
               className="text-2xl md:text-3xl mt-20 text-white font-semibold font-mono 2xl:w-6/12 xl:w-8/12 lg:w-10/12 mx-auto leading-relaxed transition-all duration-300 ease-in"
               id="saya"
-              style={{ transform: `translateY(${scrollY * 0.65}px)` }}
+              style={{ transform: `translateY(${scrollY * 0.63}px)` }}
             >
               I am a{" "}
               <Typewriter
                 options={{
-                  strings: [
-                    "Frontend Engineer...",
-                    "Backend Engineer...",
-                    "Data Engineer...",
-                  ],
+                  strings: ["Frontend Engineer...", "Backend Engineer...", "Data Engineer..."],
                   autoStart: true,
                   loop: true,
                   delay: 85,
@@ -59,19 +54,17 @@ export default function Hero() {
             </p>
           </div>
         </div>
-        {/* <image src="/images/hero1.png" className="absolute w-full"/> */}
-        <a
+        <Link
           style={{
-            transform: `translateY(${scrollY * 0.5}px)`,
+            transform: `translateY(${scrollY * 0.4}px)`,
             width: "110px",
           }}
-          href="profile"
-          // to="profile"
-          // smooth={true}
+          to="profile"
+          smooth={true}
           className="absolute z-10 mx-auto left-0 right-0 -mt-60 text-center transition-all py-3 font-semibold text-sm inline-block bg-green-400 cursor-pointer rounded-full hover:bg-yellow-600 text-white shadow-sm shadow-black"
         >
           Learn
-        </a>
+        </Link>
         <motion.div
           initial={{ y: "300px" }}
           animate={{ y: 0 }}

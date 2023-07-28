@@ -1,17 +1,15 @@
 import ProjectItem from "./ProjectItem";
 import SectionParagraph from "./SectionParagraph";
 import SectionTitle from "./SectionTitle";
-import { useRef } from "react";
-import classnames from "classnames";
 
 const projectsData = require("../data/projects.json");
 
 export default function SectionProjects({ projectsData }) {
-  const data = projectsData
+  const data = projectsData;
   return (
     <>
       <section className="" id="projects">
-        <div className="w-full mx-auto px-10 2xl:px-0 bg-[#2d253a] pt-16">
+        <div className="w-full mx-auto px-10 2xl:px-0 bg-[#2d253a] pt-16 overflow-x-hidden">
           <SectionTitle>Projects</SectionTitle>
           <SectionParagraph>some projects i have completed</SectionParagraph>
           <div className="flex -mx-4 mt-20 flex-wrap">
@@ -39,5 +37,3 @@ export default function SectionProjects({ projectsData }) {
     </>
   );
 }
-
-
