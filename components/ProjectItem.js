@@ -32,7 +32,7 @@ export default function ProjectItem({ name, description, image, index, order, da
   return (
     <article className="text-center w-full md:flex mb-16">
       <motion.img
-        className={classnames("md:w-6/12 aspect-video w-full h-full rounded-lg pr-6 pl-2", order == 1 ? "order-2" : "")}
+        className={classnames("md:w-6/12 w-full h-full rounded-lg pr-6 pl-2", order == 1 ? "order-2" : "")}
         src={image_url}
       />
 
