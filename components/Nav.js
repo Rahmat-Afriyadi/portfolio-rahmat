@@ -46,14 +46,6 @@ export default function Nav({ scheme, dir }) {
         variants={item}
         // transition={{ delay: 2, duration: 1 }}
       >
-        <NavItem scheme={scheme} href="profile">
-          Profile
-        </NavItem>
-      </motion.div>
-      <motion.div
-        variants={item}
-        // transition={{ delay: 2, duration: 1 }}
-      >
         <NavItem scheme={scheme} href="skills">
           Skills
         </NavItem>
@@ -64,14 +56,6 @@ export default function Nav({ scheme, dir }) {
       >
         <NavItem scheme={scheme} href="projects">
           Projects
-        </NavItem>
-      </motion.div>
-      <motion.div
-        variants={item}
-        // transition={{ delay: 2, duration: 1 }}
-      >
-        <NavItem scheme={scheme} href="contact">
-          Contact
         </NavItem>
       </motion.div>
     </motion.ul>

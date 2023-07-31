@@ -13,11 +13,12 @@ export default function handler(req, res) {
     from: `${name} <${from}>`,
     to: "afriyadi.arfa@gmail.com",
     subject,
-    text: `From: ${from} \nName: ${name} `,
+    text: `From: ${from} \nName: ${name} \n${text}`,
   };
   mailTransporter.sendMail(mainOptions, function (err, info) {
     if (err) {
       console.log(err);
+      res.status(201).json({ err });
     } else {
       console.log("Message sent: " + info.response);
     }

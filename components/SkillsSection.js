@@ -6,6 +6,9 @@ import classnames from "classnames";
 
 const skillsData = require("../data/skills.json");
 const baseTech = require("../data/base-tech.json");
+import getConfig from "next/config";
+const { publicRuntimeConfig } = getConfig();
+const { OAuth2 } = publicRuntimeConfig;
 
 const stagger = {
   initial: {
@@ -71,7 +74,7 @@ export default function SectionSkills() {
           <h2 className={`text-white text-2xl font-semibold font-mono text-center`}>Skills</h2>
           <SectionParagraph>some of my current skills...</SectionParagraph>
 
-          <h2 className={`text-white text-lg font-semibold font-mono text-center mt-10`}>Base Tech</h2>
+          <h2 className={`text-white text-lg font-semibold font-mono text-center mt-10`}>Base Tech {OAuth2.service}</h2>
           <div variants={stagger} className="flex -mx-4 mt-10 mb-10 flex-wrap">
             {baseTech.map((element, index) => {
               let cards = index % 2 == 0 ? "cards-left" : "cards-right";

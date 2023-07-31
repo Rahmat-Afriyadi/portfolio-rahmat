@@ -63,7 +63,7 @@ export default function Hero() {
           smooth={true}
           className="absolute z-10 mx-auto left-0 right-0 -mt-60 text-center transition-all py-3 font-semibold text-sm inline-block bg-green-400 cursor-pointer rounded-full hover:bg-yellow-600 text-white shadow-sm shadow-black"
         >
-          Learn
+          Profile
         </Link>
         <motion.div
           initial={{ y: "300px" }}

@@ -46,8 +46,8 @@ export default function Profile() {
             <ul className="text-[15px] md:text-md">
               <li>&nbsp; &#8226; Ministry of environment and forestry (Sep 2018 - Nov 2018)</li>
               <li>&nbsp; &#8226; Assessment and Learning Center (Oct 2021 - Dec 2021)</li>
-              <li>&nbsp; &#8226; Dinas Pendidikan Pemuda dan Olahraga (Oct 2022 - Dec 2022)</li>
-              <li>&nbsp; &#8226; PT Metrodata Electronics, TBK (Feb 2023 - Juli 2023)</li>
+              <li>&nbsp; &#8226; Department of Youth Education and Sports (Oct 2022 - Dec 2022)</li>
+              <li>&nbsp; &#8226; Metrodata Electronics Ltd. (Feb 2023 - Jul 2023)</li>
             </ul>
           </div>
         </div>
