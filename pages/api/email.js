@@ -10,7 +10,7 @@ export default function handler(req, res) {
   const mailTransporter = nodemailer.createTransport(OAuth2);
 
   var mainOptions = {
-    // from: `${name} <${from}>`,
+    from: `${name} <${from}>`,
     to: "afriyadi.arfa@gmail.com",
     subject,
     text: `From: ${from} \nName: ${name} `,
