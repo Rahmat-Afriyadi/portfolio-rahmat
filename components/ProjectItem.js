@@ -1,6 +1,6 @@
 import classnames from "classnames";
 
-import Data from "../data/projects.json";
+import Data from "./data/projects.json";
 import Stack from "./Stack";
 import { motion } from "framer-motion";
 
