@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 import classnames from "classnames";
 import Image from "next/dist/client/image";
 
-const Navbar = dynamic(() => import("../components/Navbar"), { ssr: false });
 const ContactSection = dynamic(() => import("../components/ContactSection"), { ssr: false });
 const Nav = dynamic(() => import("../components/Nav"), { ssr: false });
 const Logo = dynamic(() => import("../components/Logo"), { ssr: false });
@@ -15,7 +14,7 @@ export default function Contact() {
 
   return (
     <>
-      <div className="h-screen overflow-y-hidden bg-[#2d253a]">
+      <div className="h-screen md:overflow-y-hidden bg-[#2d253a]">
         <div
           id="navbar"
           className="transition-all duration-500 ease-in-out fixed top-0 left-0 right-0 h-7 w-screen pl-7 sm:px-10 py-8 flex items-center z-10 bg-[#2d253a]"

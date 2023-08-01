@@ -99,7 +99,7 @@ export default function ContactSection() {
           </div>
         </div>
       )}
-      <section className="container mx-auto px-10 2xl:px-0 sm:pt-10" id="contact">
+      <section className="container mx-auto px-10 2xl:px-0 sm:pt-10 bg-[#2d253a]" id="contact">
         <div className="bg-[#2d253a] text-white flex rounded-lg flex-wrap">
           <div className="md:w-6/12 w-full md:border-r border-b border-primarygray-200">
             <div className="lg:py-16 lg:px-20 md:p-14 p-10">
@@ -193,12 +193,6 @@ export default function ContactSection() {
                 >
                   Send
                 </button>
-                {/* <button
-                    className="transition py-3 px-10 cursor-pointer font-semibold text-sm inline-block bg-green-400 hover:bg-opacity-90 text-white"
-                    onClick={tutup}
-                  >
-                    tutup
-                  </button> */}
               </div>
             </form>
           </div>

@@ -57,8 +57,6 @@ export default function Nav({ scheme, dir }) {
     return windowSize;
   }
 
-  console.log(size);
-
   return (
     <motion.ul variants={container} initial="hidden" animate="show" className={classnames("flex", pickedDir)}>
       <motion.div
