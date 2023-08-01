@@ -113,13 +113,28 @@ export default function ContactSection() {
                 value="afriyadi.arfa@gmail.com"
                 icon="/images/stack/mail.svg"
                 className="mt-10"
+                link="https://mail.google.com/mail/u/0/?view=cm&tf=1&fs=1&to=afriyadi.arfa@gmail.com"
               />
-              <ContactItem label="Phone" value="082124744961" icon="/images/stack/phone.svg" className="mt-6" />
+              <ContactItem
+                label="Phone"
+                value="082124744961"
+                icon="/images/stack/phone.svg"
+                className="mt-6"
+                link="https://wa.me/082124744961"
+              />
               <ContactItem
                 label="LinkedIn"
                 value="rahmat-afriyadi"
                 icon="/images/stack/linkedin.svg"
                 className="mt-6"
+                link="https://www.linkedin.com/in/rahmat-afriyadi/"
+              />
+              <ContactItem
+                label="Instagram"
+                value="@rahmat_afriyadi_"
+                icon="/images/stack/ig.svg"
+                className="mt-6"
+                link="https://www.instagram.com/rahmat_afriyadi_/"
               />
             </div>
           </div>

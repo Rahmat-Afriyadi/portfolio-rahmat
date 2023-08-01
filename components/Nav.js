@@ -1,6 +1,7 @@
 import NavItem from "../components/NavItem";
 import classnames from "classnames";
 import { motion } from "framer-motion";
+import { useEffect, useState } from "react";
 
 export default function Nav({ scheme, dir }) {
   const dirs = {
@@ -32,6 +33,32 @@ export default function Nav({ scheme, dir }) {
 
   const pickedDir = dirs[dir];
 
+  const size = useWindowSize();
+
+  function useWindowSize() {
+    const [windowSize, setWindowSize] = useState({
+      width: undefined,
+      height: undefined,
+    });
+    useEffect(() => {
+      function handleResize() {
+        setWindowSize({
+          width: window.innerWidth,
+          height: window.innerHeight,
+        });
+      }
+
+      window.addEventListener("resize", handleResize);
+
+      handleResize();
+
+      return () => window.removeEventListener("resize", handleResize);
+    }, []);
+    return windowSize;
+  }
+
+  console.log(size);
+
   return (
     <motion.ul variants={container} initial="hidden" animate="show" className={classnames("flex", pickedDir)}>
       <motion.div
@@ -58,6 +85,16 @@ export default function Nav({ scheme, dir }) {
           Projects
         </NavItem>
       </motion.div>
+      {size.width <= 768 && (
+        <motion.div
+          variants={item}
+          // transition={{ delay: 2, duration: 1 }}
+        >
+          <NavItem scheme={scheme} href="contact">
+            contact
+          </NavItem>
+        </motion.div>
+      )}
     </motion.ul>
   );
 }
