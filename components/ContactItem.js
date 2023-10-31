@@ -1,5 +1,5 @@
 import classnames from "classnames";
-import Image from "next/dist/client/image";
+import Image from "next/image";
 
 export default function ContactItem({ label, value, icon, className, link = "" }) {
   return (

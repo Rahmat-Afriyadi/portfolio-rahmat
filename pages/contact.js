@@ -2,7 +2,7 @@ import dynamic from "next/dynamic";
 import { useState } from "react";
 import { motion } from "framer-motion";
 import classnames from "classnames";
-import Image from "next/dist/client/image";
+import Image from "next/image";
 
 const ContactSection = dynamic(() => import("../components/ContactSection"), { ssr: false });
 const Nav = dynamic(() => import("../components/Nav"), { ssr: false });

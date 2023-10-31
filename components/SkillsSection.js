@@ -72,7 +72,7 @@ export default function SectionSkills() {
           <SectionParagraph>some of my current skills...</SectionParagraph>
 
           <h2 className={`text-white text-lg font-semibold font-mono text-center mt-10`}>Base Tech</h2>
-          <div variants={stagger} className="flex -mx-4 mt-3 mb-12 flex-wrap">
+          <motion.div variants={stagger} className="flex -mx-4 mt-3 mb-12 flex-wrap">
             {baseTech.map((element, index) => {
               let cards = index % 2 == 0 ? "cards-left" : "cards-right";
               return (
@@ -94,10 +94,10 @@ export default function SectionSkills() {
                 </div>
               );
             })}
-          </div>
+          </motion.div>
 
           <h2 className={`text-white text-lg font-semibold font-mono text-center`}>Framework</h2>
-          <div variants={stagger} className="flex -mx-4 mt-3 mb-10 flex-wrap">
+          <motion.div variants={stagger} className="flex -mx-4 mt-3 mb-10 flex-wrap">
             {skillsData.map((element, index) => {
               let cards = index % 2 == 0 ? "cards-left" : "cards-right";
               return (
@@ -119,7 +119,7 @@ export default function SectionSkills() {
                 </div>
               );
             })}
-          </div>
+          </motion.div>
         </div>
       </motion.section>
     </>

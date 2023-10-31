@@ -1,7 +1,7 @@
 import SectionParagraph from "./SectionParagraph";
 import SectionTitle from "./SectionTitle";
 import { motion } from "framer-motion";
-import Image from "next/dist/client/image";
+import Image from "next/image";
 
 export default function Profile() {
   return (
