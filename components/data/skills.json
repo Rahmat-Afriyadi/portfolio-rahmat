@@ -10,19 +10,14 @@
     "image": "express-js.png"
   },
   {
-    "name": "React JS",
-    "level": "6 Months",
-    "image": "react.svg"
+    "name": "Next JS",
+    "level": "2 years",
+    "image": "nextjs.png"
   },
   {
     "name": "Pandas",
     "level": "6 Months",
     "image": "pandas.svg"
-  },
-  {
-    "name": "Vue JS",
-    "level": "6 Months",
-    "image": "vuejs.svg"
   },
   {
     "name": "DJango",
@@ -36,7 +31,7 @@
   },
   {
     "name": "Tailwind CSS",
-    "level": "1 Year",
+    "level": "2 Years",
     "image": "tailwind.svg"
   },
   {
@@ -58,5 +53,10 @@
     "name": "Mongoo DB",
     "level": "6 Months",
     "image": "mongoodb.svg"
+  },
+  {
+    "name": "Prisma ORM",
+    "level": "1 Year",
+    "image": "prisma.jpeg"
   }
 ]

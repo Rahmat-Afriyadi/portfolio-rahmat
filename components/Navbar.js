@@ -17,11 +17,9 @@ export default function Navbar({ heroHeight, notHome = false }) {
       if (y > window.scrollY) {
         document.getElementById("navbar").style.top = "0";
         document.getElementById("navbar").style.opacity = "100";
-        // console.log("scrolling up");
       } else if (y < window.scrollY) {
         document.getElementById("navbar").style.top = "-65px";
         document.getElementById("navbar").style.opacity = "0";
-        // console.log("scrolling down");
       }
 
       setY(window.scrollY);
